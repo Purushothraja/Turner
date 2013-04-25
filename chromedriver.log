@@ -1,0 +1,31 @@
+[0425/103215:INFO:chromedriver_server.cc(76)] Handling request: /status 
+[0425/103215:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":{"build":{"version":"alpha"},"os":{"arch":"x86","name":"Windows NT","version":"6.1 SP1"}}}
+[0425/103215:INFO:chromedriver_server.cc(76)] Handling request: /session {"desiredCapabilities":{"platform":"ANY","browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","chrome.switches":[]}}
+[0425/103215:INFO:chrome_launcher.cc(74)] Using chrome from C:\Program Files\Google\Chrome\Application\chrome.exe
+[0425/103216:INFO:chromedriver_server.cc(81)] Done handling request: 303 
+[0425/103216:INFO:chromedriver_server.cc(76)] Handling request: /session/ec6f037562e6c15235fa15686727e2ae 
+[0425/103216:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"ec6f037562e6c15235fa15686727e2ae","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","cssSelectorsEnabled":true,"databaseEnabled":true,"driverVersion":"0.8","handlesAlerts":true,"javascriptEnabled":true,"locationContextEnabled":true,"nativeEvents":true,"platform":"Windows NT","rotatable":false,"takesScreenshot":true,"version":"26.0.1410.64","webStorageEnabled":true}}
+[0425/103216:INFO:chromedriver_server.cc(76)] Handling request: /session/ec6f037562e6c15235fa15686727e2ae/url {"url":"http://www.cnn.com/"}
+[0425/103224:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"ec6f037562e6c15235fa15686727e2ae","status":0,"value":null}
+[0425/103224:INFO:chromedriver_server.cc(76)] Handling request: /session/ec6f037562e6c15235fa15686727e2ae/window/current/maximize {"windowHandle":"current"}
+[0425/103224:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"ec6f037562e6c15235fa15686727e2ae","status":0,"value":null}
+[0425/103224:INFO:chromedriver_server.cc(76)] Handling request: /session/ec6f037562e6c15235fa15686727e2ae/element {"using":"xpath","value":".//*[@id='cnn_hdr-main']"}
+[0425/103224:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"ec6f037562e6c15235fa15686727e2ae","status":0,"value":{"ELEMENT":"0.8056391878053546:1"}}
+[0425/103224:INFO:chromedriver_server.cc(76)] Handling request: /session/ec6f037562e6c15235fa15686727e2ae/element/0.8056391878053546:1/displayed 
+[0425/103224:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"ec6f037562e6c15235fa15686727e2ae","status":0,"value":true}
+[0425/103224:INFO:chromedriver_server.cc(76)] Handling request: /session/ec6f037562e6c15235fa15686727e2ae/element {"using":"xpath","value":".//*[@id='cnn_ftrcntntinner']"}
+[0425/103224:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"ec6f037562e6c15235fa15686727e2ae","status":0,"value":{"ELEMENT":"0.8056391878053546:2"}}
+[0425/103224:INFO:chromedriver_server.cc(76)] Handling request: /session/ec6f037562e6c15235fa15686727e2ae/element/0.8056391878053546:2/displayed 
+[0425/103224:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"ec6f037562e6c15235fa15686727e2ae","status":0,"value":true}
+[0425/103224:INFO:chromedriver_server.cc(76)] Handling request: /session/ec6f037562e6c15235fa15686727e2ae/element {"using":"xpath","value":".//*[@id='pmWeather']"}
+[0425/103224:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"ec6f037562e6c15235fa15686727e2ae","status":0,"value":{"ELEMENT":"0.8056391878053546:3"}}
+[0425/103224:INFO:chromedriver_server.cc(76)] Handling request: /session/ec6f037562e6c15235fa15686727e2ae/element/0.8056391878053546:3/displayed 
+[0425/103224:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"ec6f037562e6c15235fa15686727e2ae","status":0,"value":true}
+[0425/103224:INFO:chromedriver_server.cc(76)] Handling request: /session/ec6f037562e6c15235fa15686727e2ae/element {"using":"xpath","value":".//*[@id='pmMarkets']"}
+[0425/103224:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"ec6f037562e6c15235fa15686727e2ae","status":0,"value":{"ELEMENT":"0.8056391878053546:4"}}
+[0425/103224:INFO:chromedriver_server.cc(76)] Handling request: /session/ec6f037562e6c15235fa15686727e2ae/element/0.8056391878053546:4/displayed 
+[0425/103224:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"ec6f037562e6c15235fa15686727e2ae","status":0,"value":true}
+[0425/103224:INFO:chromedriver_server.cc(76)] Handling request: /session/ec6f037562e6c15235fa15686727e2ae 
+[0425/103225:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"ec6f037562e6c15235fa15686727e2ae","status":0,"value":null}
+[0425/103225:INFO:chromedriver_server.cc(76)] Handling request: /shutdown 
+[0425/103225:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":null}
